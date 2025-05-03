@@ -93,26 +93,6 @@ import streamlit as st
 banner = Image.open("baner.png")
 st.image(banner, use_container_width=True)
 
-
-# === Mostrar logo centrado ===
-st.markdown(
-    """
-    <div style="text-align: center; margin-bottom: 10px;">
-        <h1 style="color: #51924B;">Encuesta Comercio</h1>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-st.markdown(
-    """
-    <div style="text-align: center; margin-bottom: 10px;">
-        <h1 style="color: #51924B;">Santa Cruz 2025</h1>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
 # === TÍTULO PRINCIPAL ===
 
 st.markdown("""
