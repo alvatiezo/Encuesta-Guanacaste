@@ -88,7 +88,9 @@ st.markdown("""
     /* Color del texto seleccionado en radio y multiselect */
 div[role="radiogroup"] label[data-selected="true"],
 div[role="listbox"] div[data-selected="true"] {
-    color: #2C517A !important;
+    color: #FAFEF3 !important;
+    background-color:#2C517A !important
+    border-radius: 8px
     font-weight: bold;
 }
     </style>
