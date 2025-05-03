@@ -99,9 +99,11 @@ div[role="listbox"] div[data-selected="true"]::after {
     margin-left: 6px;
 }
     /* Forzar color del texto en opciones de selección única (radio) */
-div[role="radiogroup"] label {
+div[role="radiogroup"] label,
+div[role="radiogroup"] label span {
     color: #2C517A !important;
     background-color: #FAFEF3 !important;
+    font-weight: 500 !important;
 }
  /* ...estilos anteriores ... */
 
