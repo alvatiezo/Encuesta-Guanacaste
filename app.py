@@ -112,6 +112,12 @@ div[role="radiogroup"] label span {
         color: #2C517A !important;
         background-color: #FAFEF3 !important;
     }
+    /* Cambia el color del texto de las preguntas */
+label, .stMarkdown p {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
     </style>
 """, unsafe_allow_html=True)
 
