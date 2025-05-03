@@ -45,7 +45,7 @@ st.markdown("""
     /* Estilo de encabezados de expanders */
     .streamlit-expanderHeader {
         font-weight: bold;
-        background-color: #51924B; !important
+        background-color: #51924B; !important;
         color: #FAFEF3 !important;
         border-radius: 10px;
         padding: 10px;
