@@ -62,7 +62,7 @@ st.markdown("""
 
     /* Inputs personalizados */
     .stSelectbox > div, .stRadio > div, .stMultiSelect > div, .stTextArea > div {
-        background-color: #FAFEF3;
+        background-color: #51924b;
         border: 2px solid #51924b;
         border-radius: 10px;
         color: #2C517A !important;
