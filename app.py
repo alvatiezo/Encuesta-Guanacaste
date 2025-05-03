@@ -33,7 +33,7 @@ st.markdown(
     <style>
     /* Fondo general */
     .stApp {
-        background-color: #0e1117;
+        background-color: #FAFEF3;
     }
 
     /* Títulos principales */
