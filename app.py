@@ -120,13 +120,13 @@ else:
             ["", "Tamarindo", "Cabo Velas (Flamingo)", "Tempate"]
         )
 
-// Subopciones por distrito//    
+# Subopciones por distrito    
         if distrito == "Tamarindo":
             barrio = st.selectbox("Barrio",["Tamarindo Centro","Villareal"])
         elif distrito == "Cabo Velas (Flamingo)":
-            barrio = se.selectbox("Barrio",["Flamingo", "Brasilito"])
-         elif distrito == "Tempate":
-            barrio = se.selectbox("Barrio",["Surf Side", "Potrero"])
+            barrio = st.selectbox("Barrio",["Flamingo", "Brasilito"])
+        elif distrito == "Tempate":
+            barrio = st.selectbox("Barrio",["Surf Side", "Potrero"])
         
         edad = st.number_input(
             "Edad:",
