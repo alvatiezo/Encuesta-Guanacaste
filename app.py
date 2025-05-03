@@ -231,7 +231,7 @@ with st.expander("3️⃣🐢 Factores de Riesgo Social"):
         "Falta de Inversión Social",
         [
             "Falta de oferta educativa",
-            "Falta de oferta educativa",
+            "Falta de oferta deportiva",
             "Falta de oferta recreativa",
             "Falta de actividades culturales"
         ]
