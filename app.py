@@ -226,6 +226,18 @@ with st.expander("3️⃣🐢 Factores de Riesgo Social"):
         ]
     )
     st.caption("Nota: selección múltiple.")
+
+    Falta de inversion = st.multiselect(
+        "Falta de Inversión Social",
+        [
+            "Falta de oferta educativa",
+            "Falta de oferta educativa",
+            "Falta de oferta recreativa",
+            "Falta de actividades culturales"
+        ]
+    )
+    st.caption("Nota: selección múltiple.")
+    
 # === PARTE 5: SITUACIONES RELACIONADAS A DELITOS ===
 with st.expander("4️⃣🦥 Situaciones Relacionadas a Delitos"):
     delitos_zona = st.multiselect(
