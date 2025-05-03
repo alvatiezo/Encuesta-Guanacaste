@@ -98,20 +98,13 @@ div[role="listbox"] div[data-selected="true"]::after {
     content: " ✅";
     margin-left: 6px;
 }
-    /* Forzar color del texto en opciones de selección única (radio) */
+    /* desplegables */
 div[role="radiogroup"] label,
 div[role="radiogroup"] label span {
     color: #ffffff !important;
-    background-color: #FAFEF3 !important;
+    background-color: #2C517A !important;
     font-weight: 500 !important;
 }
- /* ...estilos anteriores ... */
-
-    /* Corregir visibilidad en modo oscuro para radios */
-    div[role="radiogroup"] label {
-        color: #2C517A !important;
-        background-color: #FAFEF3 !important;
-    }
     /* Cambia el color del texto de las preguntas */
 label, .stMarkdown p {
     color: #ffffff !important;
