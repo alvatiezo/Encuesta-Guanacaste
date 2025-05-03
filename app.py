@@ -64,14 +64,14 @@ st.markdown(
     .stSelectbox > div, .stRadio > div, .stMultiSelect > div, .stTextArea > div {
         background-color: #2C517A;
         border-radius: 10px;
-        color: white;
+        color: #2C517A;
         padding: 10px;
     }
 
     /* Botones */
     .stButton > button {
         background-color: #DF912F;
-        color: white;
+        color: #2C517A;
         border: none;
         border-radius: 10px;
         padding: 10px 24px;
