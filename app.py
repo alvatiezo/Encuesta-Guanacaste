@@ -105,9 +105,23 @@ div[role="listbox"] div[data-selected="true"]::after {
 from PIL import Image
 import streamlit as st
 
-# Mostrar banner dentrado al inicio
 banner = Image.open("baner.png")
-st.image(banner, use_container_width=True)
+st.markdown(
+    """
+    <style>
+    .banner-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-height: 300px;
+        object-fit: contain;
+    }
+    </style>
+    """, unsafe_allow_html=True
+)
+st.markdown('<img src="baner.png" class="banner-img">', unsafe_allow_html=True)
+
 
 # === TÍTULO PRINCIPAL ===
 
