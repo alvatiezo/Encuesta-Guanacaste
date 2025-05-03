@@ -98,6 +98,18 @@ div[role="listbox"] div[data-selected="true"]::after {
     content: " ✅";
     margin-left: 6px;
 }
+    /* Forzar color del texto en opciones de selección única (radio) */
+div[role="radiogroup"] label {
+    color: #2C517A !important;
+    background-color: #FAFEF3 !important;
+}
+ /* ...estilos anteriores ... */
+
+    /* Corregir visibilidad en modo oscuro para radios */
+    div[role="radiogroup"] label {
+        color: #2C517A !important;
+        background-color: #FAFEF3 !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 
