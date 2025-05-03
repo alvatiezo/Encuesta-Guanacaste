@@ -37,8 +37,6 @@ st.markdown(
 html, body, .stApp {
     color: #2c517a !important;
 }
-    
-
     <style>
     /* Fondo general */
     .stApp {
