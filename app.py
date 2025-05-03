@@ -43,11 +43,11 @@ st.markdown("""
     }
 
      /* Estilo personalizado para encabezados de expanders */
-    .streamlit-expanderHeader {
-        background-color: #51924B !important; 
-        color: #FAFEF3 !important;              
-        font-size: 24px !important;             
-        font-weight: bold !important;           
+     div[role="button"].streamlit-expanderHeader {
+        background-color: #51924B !important;
+        color: #FAFEF3 !important;
+        font-size: 24px !important;
+        font-weight: bold !important;
         border-radius: 8px;
         padding: 12px;
     }
