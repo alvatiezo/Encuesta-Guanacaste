@@ -45,7 +45,7 @@ st.markdown(
     .streamlit-expanderHeader {
         font-weight: bold;
         background-color: #51924B;
-        color: #2C517A;
+        color: #2C517A !important;
         border-radius: 10px;
         padding: 10px;
         margin-bottom: 5px;
@@ -54,7 +54,7 @@ st.markdown(
 
     /* Fondo interno de expanders */
     div[data-testid="stExpander"] > div {
-        background-color: #1f2228;
+        background-color: #ffffff;
         border: 2px solid #ff4b4b;
         border-radius: 12px;
         padding: 10px;
