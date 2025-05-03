@@ -38,7 +38,7 @@ st.markdown(
 
     /* Títulos principales */
     h1, h2, h3 {
-        color: #3399ff;
+        color: #51924B;
     }
 
     /* Estilo de encabezados de expanders */
