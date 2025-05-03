@@ -227,7 +227,7 @@ with st.expander("3️⃣🐢 Factores de Riesgo Social"):
     )
     st.caption("Nota: selección múltiple.")
 
-    Falta de inversion = st.multiselect(
+    falta_de_inversion = st.multiselect(
         "Falta de Inversión Social",
         [
             "Falta de oferta educativa",
