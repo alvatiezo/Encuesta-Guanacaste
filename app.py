@@ -109,18 +109,22 @@ banner = Image.open("baner.png")
 st.markdown(
     """
     <style>
-    .banner-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .banner-container img {
         width: 100%;
         max-height: 300px;
         object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     </style>
-    """, unsafe_allow_html=True
+    """,
+    unsafe_allow_html=True
 )
-st.markdown('<img src="baner.png" class="banner-img">', unsafe_allow_html=True)
+
+st.markdown('<div class="banner-container">', unsafe_allow_html=True)
+st.image(banner, use_container_width=True)
+st.markdown('</div>', unsafe_allow_html=True)
 
 
 # === TÍTULO PRINCIPAL ===
