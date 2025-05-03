@@ -576,12 +576,9 @@ if not st.session_state.enviado:
                     sheet.append_row(datos)
                     st.session_state.enviado = True
                     st.success("✅ ¡Formulario enviado correctamente!")
-                    st.experimental_rerun()
                 except Exception:
-                    pass  # No mostrar errores al usuario
-
-
-                    
+                    st.error("❌ Hubo un error al guardar los datos. Intente nuevamente.")
+                  
 else:
     st.markdown("""
     <div style='background-color:#D6EFD1; padding: 20px; border-radius: 10px; border: 2px solid #51924B; text-align: center;'>
