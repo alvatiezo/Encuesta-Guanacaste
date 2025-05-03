@@ -101,7 +101,6 @@ div[role="listbox"] div[data-selected="true"]::after {
 div[role="radiogroup"] label,
 div[role="radiogroup"] label span {
     color: #ffffff !important;
-    background-color: #2C517A !important;
     font-weight: 500 !important;
 }
     /* Cambia el color del texto de las preguntas */
