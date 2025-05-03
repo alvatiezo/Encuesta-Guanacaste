@@ -88,7 +88,6 @@ st.markdown("""
 div[role="radiogroup"] > label[data-selected="true"],
 div[role="radiogroup"] > div[data-selected="true"],
 div[role="listbox"] > div[data-selected="true"] {
-    background-color: #2C517A !important;
     color: #ffffff !important;
     border-radius: 8px !important;
     font-weight: bold !important;
