@@ -237,11 +237,29 @@ with st.expander("3️⃣🐢 Factores de Riesgo Social"):
         ]
     )
     st.caption("Nota: selección múltiple.")
+
+    consumo_drogas = st.multiselect(
+        "Consumo de Drogas",
+        [
+            "Área Privada",
+            "Área Pública"
+        ]
+    )
+    st.caption("Nota: selección múltiple.")
+
+    bunker = st.multiselect(
+        "Búnker(Sitio de oportunidad)",
+        [
+            "Casa de habitación",
+            "Edificació Abandonada","Lote Baldío","Otro"
+        ]
+    )
+    st.caption("Nota: selección múltiple.")
     
 # === PARTE 5: SITUACIONES RELACIONADAS A DELITOS ===
 with st.expander("4️⃣🦥 Situaciones Relacionadas a Delitos"):
     delitos_zona = st.multiselect(
-        "¿Qué delitos considera que ocurren alrededor de su comercio?",
+        "¿Seleccine los delitos que considere que ocurren alrededor de su comercio?",
         [
             "Disturbios en vía pública",
             "Daños a la propiedad",
@@ -264,7 +282,7 @@ with st.expander("4️⃣🦥 Situaciones Relacionadas a Delitos"):
     )
 
     delitos_vida = st.multiselect(
-        "¿Qué delitos contra la vida ha observado?",
+        "¿Qué delitos contra la vida considera que hay en la zona?",
         [
             "Homicidios",
             "Heridos"
@@ -272,7 +290,7 @@ with st.expander("4️⃣🦥 Situaciones Relacionadas a Delitos"):
     )
 
     delitos_sexuales = st.multiselect(
-        "¿Qué delitos sexuales ha percibido?",
+        "¿Qué delitos sexuales ha percibido que existen en la zona?",
         [
             "Abuso sexual",
             "Acoso sexual",
@@ -281,7 +299,7 @@ with st.expander("4️⃣🦥 Situaciones Relacionadas a Delitos"):
     )
 
     asaltos = st.multiselect(
-        "¿Qué tipos de asaltos considera que ocurren?",
+        "¿Qué tipos de asaltos hay en la zona?",
         [
             "Asalto a personas",
             "Asalto a comercio",
@@ -291,7 +309,7 @@ with st.expander("4️⃣🦥 Situaciones Relacionadas a Delitos"):
     )
 
     estafas = st.multiselect(
-        "¿Qué tipos de estafas ha observado?",
+        "¿Qué tipos de estafas ha observado que hay en la zona?",
         [
             "Billetes falsos",
             "Documentos falsos",
@@ -304,7 +322,7 @@ with st.expander("4️⃣🦥 Situaciones Relacionadas a Delitos"):
     )
 
     robos = st.multiselect(
-        "¿Qué tipos de robos ha identificado?",
+        "¿Qué tipos de robos ha identificado en la zona?",
         [
             "Tacha a comercio",
             "Tacha a edificaciones",
