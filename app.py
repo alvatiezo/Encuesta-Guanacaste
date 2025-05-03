@@ -33,13 +33,13 @@ st.markdown("""
     /* Forzar modo claro y fondo general */
     html, body, .stApp {
         color-scheme: light !important;
-        background-color: #FAFEF3 !important;
+        background-color: #2C517A !important;
         color: #2C517A !important;
     }
 
     /* Títulos principales */
     h1, h2, h3 {
-        color: #51924B;
+        color: #FAFEF3;
     }
 
      /* Estilo personalizado para encabezados de expanders */
