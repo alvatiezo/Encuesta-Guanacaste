@@ -120,6 +120,16 @@ else:
             ["", "Tamarindo", "Cartagena", "Cabo Velas (Flamingo)"]
         )
 
+       # Subopciones por distrito
+subdistrito = None
+
+if distrito == "Tamarindo":
+    subdistrito = st.selectbox("Zona específica en Tamarindo:", ["Tamarindo Centro", "Villareal"])
+elif distrito == "Cabo Velas":
+    subdistrito = st.selectbox("Zona específica en Cabo Velas:", ["Flamingo", "Brasilito"])
+elif distrito == "Tempate":
+    subdistrito = st.selectbox("Zona específica en Tempate:", ["Surf Side", "Potrero"])
+    
         edad = st.number_input(
             "Edad:",
             min_value=12,
