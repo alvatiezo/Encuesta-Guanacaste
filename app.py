@@ -30,14 +30,15 @@ if "enviado" not in st.session_state:
 # === CSS personalizado ===
 st.markdown(
     """    
-    <meta name="viewport" content=width=device-width, initial-scale=1">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-/* Color de texto global */
-html, body, .stApp {
-    color: #2c517a !important;
-}
-    <style>
+    /* Forzar modo claro en todos los dispositivos */
+    html, body, .stApp {
+        color-scheme: light !important;
+        background-color: #FAFEF3 !important;
+        color: #2c517a !important;
+    }
+
     /* Fondo general */
     .stApp {
         background-color: #FAFEF3;
@@ -90,8 +91,9 @@ html, body, .stApp {
         color: white;
     }
     </style>
-""", unsafe_allow_html=True
+    """, unsafe_allow_html=True
 )
+
 
 from PIL import Image
 import streamlit as st
