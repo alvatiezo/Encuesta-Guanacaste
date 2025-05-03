@@ -50,7 +50,7 @@ st.markdown("""
         border-radius: 10px;
         padding: 10px;
         margin-bottom: 5px;
-        font-size: 20px;
+        font-size: 40px;
     }
 
     /* Fondo interno de expanders */
