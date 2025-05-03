@@ -89,7 +89,7 @@ div[role="radiogroup"] > label[data-selected="true"],
 div[role="radiogroup"] > div[data-selected="true"],
 div[role="listbox"] > div[data-selected="true"] {
     background-color: #2C517A !important;
-    color: #FAFEF3 !important;
+    color: #ffffff !important;
     border-radius: 8px !important;
     font-weight: bold !important;
 }
@@ -101,7 +101,7 @@ div[role="listbox"] div[data-selected="true"]::after {
     /* Forzar color del texto en opciones de selección única (radio) */
 div[role="radiogroup"] label,
 div[role="radiogroup"] label span {
-    color: #2C517A !important;
+    color: #ffffff !important;
     background-color: #FAFEF3 !important;
     font-weight: 500 !important;
 }
