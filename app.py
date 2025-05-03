@@ -91,7 +91,7 @@ import streamlit as st
 
 # Mostrar banner dentrado al inicio
 banner = Image.open("baner.png")
-st.image(banner, use_column_width=True)
+st.image(banner, use_container_width=True)
 
 
 # === Mostrar logo centrado ===
