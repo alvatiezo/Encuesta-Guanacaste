@@ -282,7 +282,7 @@ with st.expander("4️⃣🦥 Situaciones Relacionadas a Delitos"):
     )
 
     delitos_vida = st.multiselect(
-        "¿Qué delitos contra la vida considera que hay en la zona?",
+        "MONITOS",
         [
             "Homicidios",
             "Heridos"
