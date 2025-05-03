@@ -90,7 +90,7 @@ from PIL import Image
 import streamlit as st
 
 # Mostrar banner dentrado al inicio
-banner = Image.open(baner.png)
+banner = Image.open("baner.png")
 st.iamge(banner, use_column_wigth=true)
 
 
