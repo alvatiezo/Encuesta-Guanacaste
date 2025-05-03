@@ -45,7 +45,7 @@ st.markdown(
     .streamlit-expanderHeader {
         font-weight: bold;
         background-color: #51924B;
-        color: white;
+        color: #2C517A;
         border-radius: 10px;
         padding: 10px;
         margin-bottom: 5px;
@@ -70,7 +70,7 @@ st.markdown(
 
     /* Botones */
     .stButton > button {
-        background-color: #ff4b4b;
+        background-color: #DF912F;
         color: white;
         border: none;
         border-radius: 10px;
@@ -78,7 +78,7 @@ st.markdown(
         font-size: 16px;
     }
     .stButton > button:hover {
-        background-color: #e60000;
+        background-color: #DF912F;
         color: white;
     }
     </style>
