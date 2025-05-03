@@ -85,11 +85,12 @@ st.markdown("""
         color: white;
     }
     
-    /* Color del texto seleccionado en radio y multiselect */
-div[role="radiogroup"] label[data-selected="true"],
-div[role="listbox"] div[data-selected="true"] {
-    color: #FAFEF3 !important;
+   /* Corregir fondo y texto seleccionado en RADIO y MULTISELECT */
+div[role="radiogroup"] > label[data-selected="true"],
+div[role="radiogroup"] > div[data-selected="true"],
+div[role="listbox"] > div[data-selected="true"] {
     background-color: #2C517A !important;
+    color: #FAFEF3 !important;
     border-radius: 8px !important;
     font-weight: bold !important;
 }
