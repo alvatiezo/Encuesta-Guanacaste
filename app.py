@@ -90,7 +90,7 @@ st.markdown(
 st.markdown(
     """
     <div style="text-align: center; margin-bottom: 10px;">
-        <h1 style="color: #3399ff;">Encuesta Comercio</h1>
+        <h1 style="color: #51924B;">Encuesta Comercio</h1>
     </div>
     """,
     unsafe_allow_html=True
@@ -99,14 +99,13 @@ st.markdown(
 st.markdown(
     """
     <div style="text-align: center; margin-bottom: 10px;">
-        <h1 style="color: #3399ff;">Santa Cruz 2025</h1>
+        <h1 style="color: #51924B;">Santa Cruz 2025</h1>
     </div>
     """,
     unsafe_allow_html=True
 )
 
 # === TÍTULO PRINCIPAL ===
-st.title("Santa Cruz 2025")
 
 st.markdown("""
 **Con el objetivo de fortalecer la seguridad en nuestro entorno comercial, nos enfocamos en abordar las principales preocupaciones de seguridad.**
