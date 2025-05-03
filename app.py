@@ -29,7 +29,16 @@ if "enviado" not in st.session_state:
 
 # === CSS personalizado ===
 st.markdown(
-    """
+    """    
+    <meta name="viewport" content=width=device-width, initial-scale=1">
+    
+    <style>
+/* Color de texto global */
+html, body, .stApp {
+    color: #2c517a !important;
+}
+    
+
     <style>
     /* Fondo general */
     .stApp {
@@ -44,7 +53,7 @@ st.markdown(
     /* Estilo de encabezados de expanders */
     .streamlit-expanderHeader {
         font-weight: bold;
-        background-color: #51924B;
+        background-color: #D6EFD1;
         color: #2C517A !important;
         border-radius: 10px;
         padding: 10px;
@@ -62,9 +71,10 @@ st.markdown(
 
     /* Inputs personalizados */
     .stSelectbox > div, .stRadio > div, .stMultiSelect > div, .stTextArea > div {
-        background-color: #2C517A;
+        background-color: #FAFEF3;
+        border: 2px solid #51924b;
         border-radius: 10px;
-        color: #2C517A;
+        color: #2C517A !important;
         padding: 10px;
     }
 
