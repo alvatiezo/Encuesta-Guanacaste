@@ -93,7 +93,11 @@ div[role="listbox"] div[data-selected="true"] {
     border-radius: 8px !important;
     font-weight: bold !important;
 }
-
+div[role="radiogroup"] label[data-selected="true"]::after,
+div[role="listbox"] div[data-selected="true"]::after {
+    content: " ✅";
+    margin-left: 6px;
+}
     </style>
 """, unsafe_allow_html=True)
 
