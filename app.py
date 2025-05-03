@@ -86,6 +86,14 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+from PIL import Image
+import streamlit as st
+
+# Mostrar banner dentrado al inicio
+banner = Image.open(baner.png)
+st.iamge(banner, use_column_wigth=true)
+
+
 # === Mostrar logo centrado ===
 st.markdown(
     """
